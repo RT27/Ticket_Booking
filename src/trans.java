@@ -12,11 +12,16 @@ public class trans {
     public  String dest;
 
 
+     trans(){
+
+     }
     trans(Calendar Search_date, String source, String dest){
 
         this.Search_date=Search_date;
         this.source=source;
         this.dest=dest;
+
+
 
 
     }
