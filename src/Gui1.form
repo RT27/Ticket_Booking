@@ -22,7 +22,9 @@
             <preferred-size width="567" height="26"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <text value="dd.mm.yyyy"/>
+        </properties>
       </component>
       <component id="18efd" class="javax.swing.JLabel">
         <constraints>
@@ -34,7 +36,7 @@
           <text value="Welcome to TigerTech Ticket App"/>
         </properties>
       </component>
-      <component id="f80a5" class="javax.swing.JComboBox" binding="comboBoxDestinatiom">
+      <component id="f80a5" class="javax.swing.JComboBox" binding="comboBoxDestination">
         <constraints>
           <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
