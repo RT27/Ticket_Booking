@@ -16,9 +16,10 @@ public class Gui1 extends trans{
     private JComboBox comboBoxOrigin;
     private JComboBox comboBoxDestination;
     private JButton Search;
+    private JComboBox ChooseTrans;
 
 
-    trans t1 = new trans();
+    public static trans t1 = new trans();
 
     public Gui1() {
         Search.addActionListener(new ActionListener() {
@@ -59,6 +60,7 @@ public class Gui1 extends trans{
             public void actionPerformed(ActionEvent e) {
                 String dest= comboBoxDestination.getSelectedItem().toString();
                 System.out.println(dest);
+
 
 
             }
