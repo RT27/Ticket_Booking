@@ -9,6 +9,8 @@ import java.text.*;
 
 /**
  * Created by xgrape on 6/23/17.
+ * Author : Ronald Tudu
+ * Email:xgrape@outlook.com
  */
 public class Gui1 extends trans{
     public JPanel panel1;

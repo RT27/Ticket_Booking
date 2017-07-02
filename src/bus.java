@@ -2,6 +2,8 @@ import javax.swing.*;
 
 /**
  * Created by xgrape on 6/23/17.
+ * Author : Ronald Tudu
+ * Email:xgrape@outlook.com
  */
 public class bus extends trans {
 
